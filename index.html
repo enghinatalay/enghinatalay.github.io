@@ -27,6 +27,17 @@ font-family: Helvetica, Arial, sans-serif ; font-size:10.75pt;
    _width: expression( document.body.clientWidth > 1130 ? "1130px" : "auto" ); 
 }
 -->
+.container {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
    .more {
       display: none;
       }
@@ -49,7 +60,7 @@ document.getElementById (id).style.display=vis;
 <meta name="format-detection" content="telephone=no">
 
 <body link="#128FF" vlink="#128FF" alink="#128FF">
-
+<div class="container">
 <h2> Enghin Atalay's Home Page </h2>
 
 <h3>  <a href="http://enghinatalay.github.io/atalaycv.pdf">Download CV </a> </h3>
@@ -233,5 +244,5 @@ This paper attempts to quantify the benefits associated with operating a liquidi
 <div id="WLSM" style="display: none" class="abstract">
 <p style="margin-left:4em; margin-right: 45%; text-align:justify" > <b> Abstract: </b> 
 This paper considers the welfare effects of introducing a liquidity-saving mechanism (LSM) in a real-time gross settlement (RTGS) payment system. We study the planner's problem to get a better understanding of the economic role of an LSM and find that an LSM can achieve the planner's allocation for some parameter values. The planner's allocation cannot be achieved without an LSM, as long as some payments can be delayed without cost. In equilibrium with an LSM, we show that there can be either too few or too many payments settled early compared with the planner's allocation, depending on the parameter values. </div> </p> </font size="3">
-
+</div>
 </body>

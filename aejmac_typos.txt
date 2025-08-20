@@ -1,0 +1,6 @@
+There are two sets of typos in the online appendix. 
+
+First, appendix B.1 refers to the ``Census of Manufacturers.'' This should be the ``Census of Manufactures.''
+
+Second, the section references from the appendix to the body of the paper are off by one section, and uses Arabic instead of Roman numerals. For instance, the title for Appendix D is ``Sensitivity analysis related to Section 3.'' This should be  Sensitivity analysis related to Section II.''
+
